@@ -1,0 +1,103 @@
+div.hezuo {
+    width: 100%;
+    min-width: 1120px;
+    height: 640px;
+    background: #c2dbdf url(../img/cooperation_1.jpg) center no-repeat;
+}
+body {
+    background-color: #f2f2f2;
+}
+div.hezuo-gongsi strong {
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+}
+.hezuo-gongsi .grid {
+    width: 1120px;
+    margin: 30px auto;
+    text-align: center;
+}
+.hezuo-gongsi .grid li {
+    display: inline-block;
+    width: 170px;
+    margin-right:16px;
+    margin-top:16px;
+    text-align: left;
+    position: relative;
+}
+
+.hezuo-gongsi .grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.hezuo-gongsi .grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+.hezuo-gongsi .grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #666;
+    color: #fff;
+}
+.cs-style-7 li:nth-child(6n) { margin-right:0;}
+
+.cs-style-7 figure img {
+    z-index: 10;
+}
+
+.cs-style-7 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+    -moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+    transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 0 0px #666;
+}
+.no-touch .cs-style-7 figure:hover figcaption {
+    z-index:99;
+    opacity: 1;
+    height: 100px;
+    box-shadow: 0 0 0 10px #666;
+    width:130px;
+}
+.cs-style-7 figure:hover img {
+    z-index:100;
+    filter:no;
+}
+
+.cs-style-7 figcaption h3 {
+    margin-top: 75px;
+}
+.cs-style-7 figcaption span {
+    text-align:center;
+    display:block;
+}
+
+.cs-style-7 figcaption h3,
+.cs-style-7 figcaption span{
+    text-align:center;
+    opacity: 0;
+    -webkit-transition: opacity 0s;
+    -moz-transition: opacity 0s;
+    transition: opacity 0s;
+}
+
+
+.cs-style-7 figure:hover figcaption h3,.cs-style-7 figure:hover figcaption span{
+    -webkit-transition: opacity 0.3s 0.2s;
+    -moz-transition: opacity 0.3s 0.2s;
+    transition: opacity 0.3s 0.2s;
+    opacity: 1;
+}

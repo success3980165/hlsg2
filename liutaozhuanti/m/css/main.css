@@ -1,0 +1,93 @@
+@media (min-width: 320px) {
+    html {
+        font-size: 100%; 
+    }
+}
+@media (min-width: 360px) {
+    html {
+        font-size: 112.5%;
+    }
+}
+@media (min-width: 384px) {
+    html {
+        font-size: 120%;
+    }
+}
+@media (min-width: 400px) {
+    html {
+        font-size: 125%;
+    }
+}
+@media (min-width: 540px) {
+    html {
+        font-size: 168.75%;
+    }
+}
+@media (min-width: 600px) {
+    html {
+        font-size: 187.5%;
+    }
+}
+@media (min-width: 640px) {
+    html {
+        font-size: 200%;
+    }
+}
+@media (min-width: 720px) {
+    html {
+        font-size: 225%;
+    }
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 100%;
+    }
+}
+html {
+  font-size: calc(100vw / 320 * 16);
+}
+
+
+// html,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img,form,embed,label{margin:0;padding:0;border:0;font-weight:normal;}
+// body{background:#000;overflow:hidden;}
+// *, *:before, *:after {
+//   -moz-box-sizing: border-box;    /* Firefox 1, probably can drop this */
+//   -webkit-box-sizing: border-box; /* Safari 3-4, also probably droppable */
+//   box-sizing: border-box;     /* Everything else */
+// }
+// a {text-decoration: none;}
+// input {outline: 0;}
+// // img {
+// //     border:none;display: block;
+// // }
+// ul {
+//   list-style: none;
+//   margin: 0;padding: 0;
+// }
+
+// .fl {float:left;}
+// .fr {float:right;}
+// .pos-rel {
+//     position: relative;
+// }
+// .cls {clear:both; line-height:0px!important; height:0px!important;font-size:0px!important;} 
+
+
+/* ==== 椤甸潰瀹瑰櫒鏍峰紡寮€濮媨{{ ==== */
+// #page1{background:url(../img/head11.jpg) no-repeat;background-size: 100% 100%; }
+#page2{background:url(../img/midbackground.jpg) no-repeat;}
+#page3{background:url(../img/three.jpg) no-repeat;}
+#page4{background:url(../img/four.jpg) no-repeat;}
+// #page5{background:url(http://y0.ifengimg.com/l/2015/52/7a6a9014b0658e0/page5_bg.jpg) no-repeat;}
+// #page6{background:url(http://y3.ifengimg.com/l/2015/52/7a6a9014b0658e0/page6_bg.jpg) no-repeat;background-size:100% 100%;-webkit-background-size:100% 100%;}
+// #page7{background:url(http://y0.ifengimg.com/l/2015/52/7a6a9014b0658e0/page7_bg.jpg) no-repeat;background-size:100% 100%;-webkit-background-size:100% 100%;}
+// #page8{background:url(http://y2.ifengimg.com/l/2015/52/7a6a9014b0658e0/page8_bg.jpg) no-repeat;background-size:100% 100%;-webkit-background-size:100% 100%;}
+// #page9{background:url(http://y3.ifengimg.com/l/2015/52/7a6a9014b0658e0/page9_bg.jpg) no-repeat;background-size:100% 100%;-webkit-background-size:100% 100%;}
+// #page10{background:url(http://y0.ifengimg.com/l/2015/52/7a6a9014b0658e0/page10_bg.jpg) no-repeat;background-size:100% 100%;-webkit-background-size:100% 100%;}
+
+
+
+
+
+
+

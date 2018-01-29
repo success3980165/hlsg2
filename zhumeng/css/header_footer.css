@@ -1,0 +1,221 @@
+/*header start*/
+#header {
+    width: 100%;
+    min-width: 1120px;
+    background-color: #33415b;
+    height: 60px;
+    z-index: 100;
+}
+div.header_in {
+    width: 1120px;
+    margin: 0 auto;
+    height: 60px;
+}
+div.logo {
+    width: 183px;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+div.logo img {
+    margin-top: -6px;
+}
+div.nav {
+    position: relative;
+    float: left;
+    // overflow: hidden;
+    // height: 335px;
+    // border: 1px solid red;
+}
+div.menu  {
+    height: 60px;
+}
+div.menu ul li {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    width: 180px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.menu ul li.highlight,
+div.menu ul li:hover {
+    background-color: #990000;
+}
+div.menu ul li a {
+    color: #fff;
+}
+div.menu ul li a:hover {
+    text-decoration: none;
+}
+
+div.sub_menu {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left: -203px;
+    padding-left: 203px;
+    height: 275px;
+    width: 915px;
+    background-color: #fff;
+    box-shadow: 0px 6px 6px rgba(0,0,0,0.2);
+}
+div.sub_menu ul {
+    float: left;
+    height: 260px;
+    display: inline;
+    padding-top: 15px;
+    width: 180px;
+}
+// div.sub_menu ul.active {
+//     background: rgba(0,0,0,0.1);
+// }
+div.sub_menu ul li {
+    display: block;
+    height: 30px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+div.sub_menu ul li a {
+    color: #666;
+    display: block;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    width: 145px;
+    text-align: left;
+    padding-left: 62px;
+}
+div.sub_menu ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #990000;
+}
+
+.highlight {
+    background:#990000;
+}
+.bk {
+    background: rgba(0,0,0,0.1)
+}
+
+/*header end*/
+
+
+
+div.footer {
+    width: 100%;
+    min-width: 1120px;
+    background-color: #666;
+    padding-bottom: 17px;
+}
+div.footer_in {
+    width: 1120px;
+    margin: 0 auto;
+    clear: both;
+    height: 60px;
+
+}
+div.footer ul li {
+    float: left;
+    line-height: 60px;
+    margin-right: 2px;
+    color: #fff;
+    // font-size: 14px;
+}
+li.foot_links a {
+    line-height: 60px;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 14px;
+}
+li.foot_links a span {
+    color: #999;
+}
+li.foot_gzh {
+    height: 30px;
+    padding-top: 15px;
+    line-height: 30px;
+}
+li.foot_gzh a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+li.foot_gzh a.foot_weibo {
+    background: url(../img/foot_icon.png) no-repeat 2px 4px;
+}
+li.foot_gzh a.foot_weixin {
+    background: url(../img/foot_icon.png) no-repeat -41px 4px;
+    position: relative;
+    margin-right: 4px;
+}
+li.foot_gzh a.foot_kongjian {
+    background: url(../img/foot_icon.png) no-repeat -86px 4px;
+}
+li.foot_gzh a:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+li.foot_gzh a.foot_weibo:hover {
+    background: url(../img/foot_icon.png) no-repeat 2px -35px;
+}
+li.foot_gzh a.foot_weixin:hover {
+    background: url(../img/foot_icon.png) no-repeat -41px -35px;
+}
+li.foot_gzh a.foot_kongjian:hover {
+    background: url(../img/foot_icon.png) no-repeat -86px -35px;
+}
+
+div.footer ul li.foot_copyright {
+    float: right;
+}
+.foot_weixin i {
+    z-index: 100;
+    display: block;
+    background: url(../img/weixin.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 180px;
+    width: 142px;
+    display: none;
+    top: -178px;
+    left: -59px;
+}
+
+#rocket {
+    background-color: #666;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 77px;
+    right: 8px;
+}
+#rocket a {
+    height: 40px;
+    display: block;
+    text-align: center;
+    background: url(../img/yy-icon.png) no-repeat -90px -100px;
+    // overflow: hidden;
+}
+#rocket a:hover {
+    border: currentColor !important;
+    border-image: none !important;
+    color: #FFFFFF;
+    background: #990000 url(../img/yy-icon.png) no-repeat -90px -100px;
+}

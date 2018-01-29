@@ -1,0 +1,31 @@
+body,
+        div,
+        p,
+        img,
+        a,
+        ul,
+        li,
+        h4 {
+
+        }
+
+        ul,
+        li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        }
+
+        img {
+        border: none;
+        }
+
+        a {
+        // display: block;
+        text-decoration: none;
+        }
+
+        a:hover {
+        /*text-decoration: underline;*/
+        }
+      

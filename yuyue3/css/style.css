@@ -1,0 +1,115 @@
+body,
+        div,
+        p,
+        img,
+        a,
+        ul,
+        li,
+        h4 {
+        padding: 0;
+        margin: 0;
+        }
+        
+        ul,
+        li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        }
+        
+        img {
+        border: none;
+        }
+        
+        a {
+        display: block;
+        text-decoration: none;
+        }
+        
+        a:hover {
+        /*text-decoration: underline;*/
+        }
+        
+        
+        input::-webkit-input-placeholder {
+        color: #000;
+        }
+        
+        input:-moz-placeholder {
+        color: #000;
+        }
+        .userName{
+        text-align: center;
+        width: 206px;
+        height: 41px;
+        border: 3px solid rgba(189, 17, 177, 0.05);    
+        }
+        
+        .enter_phone {
+        text-align: center;
+        background: url(img/input.png) no-repeat;
+        width: 206px;
+        height: 41px;
+        border: 3px solid rgba(189, 17, 177, 0.05);
+        }
+        
+        .phone_msg {
+        width: 207px;
+        height: 81px;
+        /* border: 1px solid red; */
+        float: left;
+        margin-top: 6px;
+        margin-left: 50px;
+        }
+        
+        #allNum {
+        color: red;
+        }
+        
+       
+        .radioselect {
+        width: 211px;
+        height: 55px;
+        position: relative;
+        }
+        
+        .ios {
+        float: left;
+        margin-left: 21px;
+        }
+        
+        
+        .android {
+        float: right;
+        margin-right: 54px;
+        }
+        
+        .ios_tit {
+        position: absolute;
+        left: 58px;
+        }
+        
+        .and_tit {
+        position: absolute;
+        top: 6px;
+        right: 16px;
+        }
+        
+        .radioselect .tit {
+        top: 4px;
+        }
+   
+        .yiyou {
+        color: #7a5d41;
+        position: relative;
+        top: -23px;
+        /* left: 69px; */
+        text-align: center;
+        }
+        .daoyou {
+        background: url(daoyou.png) no-repeat;
+        width: 198px;
+        height: 92px;
+        float: right;
+        }
+    

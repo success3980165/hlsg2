@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+  width: 100%;
+  min-height: 450px;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 100%;
+}
+input{
+  outline: none;
+  -webkit-appearance: none;
+  background-color: #d6c29e;
+  /*border: none;*/
+  border-color: #ad9c7b;
+}
+p{
+  margin: 0;
+  text-shadow: 1px 1px 1px #fff;
+}
+.miling_text{
+  font-size: 40px;
+  color: #440201;
+  width: 100%;
+  text-align: center;
+  margin-top: 690px;
+  /*position: absolute;
+  top: 700px;*/
+}
+.lingqu{
+  text-align: center;
+  height: 127px;
+}
+.icon_animate{
+  position: absolute;
+  top: 750px;
+  left: 10%;
+  animation: move 1s;
+  -webkit-animation: move 1s;
+  z-index: 2;
+}
+@keyframes move {
+  0%  {left: 70%;opacity: 0;}
+  100%  {left: 10%;opacity: 1;}
+}
+@-webkit-keyframes move{
+  0%  {left: 70%;opacity: 0;}
+  100%  {left: 10%;opacity: 1;}
+}
+.duihuanma{
+  margin-top: 40px;
+  width: 57%;
+  height: 60px;
+  font-size: 26px;
+  text-align: center;
+  animation: move 2s;
+  -webkit-animation: move 2s;
+}
+@keyframes opa {
+  0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+@-webkit-keyframes opa {
+  0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+.shuoming{
+  margin-top: 70px;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 21px;
+  color: #440201;
+  line-height: 28px;
+}

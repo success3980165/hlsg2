@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>玩胡莱三国2，优惠喝奶茶</title>
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=640,target-densitydpi=320, minimum-scale=0.5, maximum-scale=2,user-scalable=0">
+  <link rel="stylesheet" href="css/index.css?v=0.0.1">
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/jquery.min.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/vue-2.1.8.min.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/hulai-activity-0.0.1.js"></script>
+  
+</head>
+<body>
+  <div id="app" v-cloak>
+    <div class="container">
+      <div class="yuyue">
+        <span>手机号</span>
+        <input type="text" class="txt" v-model="telephone" id="mobile" name="telephone" type="text" class="txt" placeholder="请输入手机号码" onfocus="this.placeholder=''" onblur="this.placeholder='输入手机号'">
+        <span>验证码</span>
+        <input type="text" class="yanzheng" v-model="code" id="smscode" name="code" onfocus="this.placeholder=''" onblur="this.placeholder='输入验证码'"  placeholder="请输入验证码">
+        <input v-bind:disabled="isDisabled" v-model="smsCodeVal" @click="sendSms(this)" type="button" class="btn" name="name">
+      </div>
+      <div class="receive">
+        <img src="img/receive.png" alt="" @click="saveRecord()">
+      </div>
+      <a href="http://uri6.com/y2Ez6z" class="now"><img src="img/now.png" alt=""></a>
+      <div class="cover" v-show="coverShow"></div>
+      <div class="success" v-show="successShow">
+        <p class="cross" @click="clickCross()"><img src="img/cross.png" alt=""></p>
+        <p>恭喜您注册成功！</p>
+        <!-- <p>注册的手机号是：{{telephone}}</p> -->
+        <p>您的兑换码为<span>{{libaoma}}</span></p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/index.js?v=0.0.1"></script>
+</body>
+</html>

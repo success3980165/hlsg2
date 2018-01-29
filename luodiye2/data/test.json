@@ -1,0 +1,78 @@
+{
+  "channels": [{
+    "channelId": 1,
+    "head": {
+      "meta": {
+        "keywords": "",
+        "description": "",
+        "author": ""
+      },
+      "title": "胡莱三国2",
+      "favicon": ""
+    },
+    "footer": {
+      "copyright": "Copyright :copyright: 2012 Hoolai Games. All Rights Reserved",
+      "address": "互爱互动（北京）科技有限公司版权所有",
+      "icpLicense": "京ICP备11034336号-1 网络文化经营许可证-京网文[2014]0904-204号 京公网安备11010502022348"
+    },
+    "content": {
+      "bgImg": "./img/bg1.jpg",
+      "baiduAnalytic": "24c51ff073c50f1fcb543985ee429712",
+      "download": {
+        "androidUrl": "http://uri6.com/2EnIfa",
+        "iosUrl": "",
+      },
+      "comment": []
+    }
+  }, {
+    "channelId": 2,
+    "head": {
+      "meta": {
+        "keywords": "",
+        "description": "",
+        "author": ""
+      },
+      "title": "胡莱三国2",
+      "favicon": ""
+    },
+    "footer": {
+      "copyright": "Copyright :copyright: 2012 Hoolai Games. All Rights Reserved",
+      "address": "互爱互动（北京）科技有限公司版权所有",
+      "icpLicense": "京ICP备11034336号-1 网络文化经营许可证-京网文[2014]0904-204号 京公网安备11010502022348"
+    },
+    "content": {
+      "bgImg": "./img/bg11.jpg",
+      "baiduAnalytic": "24c51ff073c50f1fcb543985ee429712",
+      "download": {
+        "androidUrl": "http://cdn.sango2.hulai.com/sango2_98.apk",
+        "iosUrl": "",
+      },
+      "comment": []
+    }
+  }, {
+    "channelId": 3,
+    "head": {
+      "meta": {
+        "keywords": "",
+        "description": "",
+        "author": ""
+      },
+      "title": "胡莱三国2",
+      "favicon": ""
+    },
+    "footer": {
+      "copyright": "Copyright :copyright: 2012 Hoolai Games. All Rights Reserved",
+      "address": "互爱互动（北京）科技有限公司版权所有",
+      "icpLicense": "京ICP备11034336号-1 网络文化经营许可证-京网文[2014]0904-204号 京公网安备11010502022348"
+    },
+    "content": {
+      "bgImg": "./img/bg11.jpg",
+      "baiduAnalytic": "24c51ff073c50f1fcb543985ee429712",
+      "download": {
+        "androidUrl": "http://cdn.sango2.hulai.com/1395.apk",
+        "iosUrl": "",
+      },
+      "comment": []
+    }
+  }]
+}

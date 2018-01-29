@@ -1,0 +1,230 @@
+input[type=button],input[type=text],input[type=password]{-webkit-appearance:none;outline:none}
+input{
+  font-family: "Microsoft YaHei";
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #8f714b;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #8f714b;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #8f714b;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #8f714b;
+}
+.wrap {
+  width: 100%;
+}
+.head {
+  background: url("../img/head.jpg") no-repeat top center;
+  height: 773px;
+  width: 100%;
+}
+.mid {
+  background: url("../img/mid.jpg") no-repeat top center;
+  height: 312px;
+  width: 100%;
+  overflow: hidden;
+}
+.sanguo {
+  background: url("../img/looksanguo.jpg") no-repeat top center;
+  height: 593px;
+  width: 100%;
+  position: relative;
+  top: -1px;
+}
+.banner {
+  background: url("../img/banner.jpg") no-repeat top center;
+  height: 844px;
+  width: 100%;
+  position: relative;
+  top: -4px;
+}
+.footer {
+  background: url("../img/footer.jpg") no-repeat top center;
+  height: 180px;
+  width: 100%;
+  position: relative;
+  margin-top: -5px;
+  overflow: hidden;
+}
+.middle_top {
+  width: 414px;
+  margin: 0px auto;
+  // background-color: red;
+  height: 100px;
+  margin-top: 34px;
+}
+.middle_top .txt1 {
+  padding-right: 0px;
+  padding-left: 0px;
+  border: none;
+  width: 414px;
+  height: 52px;
+  font-size: 20px;
+  text-align: center;
+}
+.middle_mid {
+  margin-top: 20px;
+}
+.middle_mid .txt2 {
+  float: left;
+  border: none;
+  width: 232px;
+  height: 56px;
+  font-size: 20px;
+  text-align: center;
+  padding:0px;
+}
+.middle_mid .yanzheng {
+  float: right;
+  width: 170px;
+  height: 56px;
+  background: #cf9f53;
+  color: #724724;
+  font-size: 22px;
+  border: none;
+  margin-left: 8px;
+  padding:0px;
+  border: none;
+}
+.left{
+  width: 395px;
+  margin-left: 22px;
+  float: left;
+}
+.left-3 {
+  margin-top: 14px;
+  width: 395px;
+  height: 55px;
+  position: relative;
+  color: #000;
+  float: left;
+}
+.left-3-1{
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 155px;
+  line-height: 37px;  
+  font-size: 18px;
+  color: #542a14;
+}
+.left-3-2{
+  width: 148px;
+  height: 55px;
+  position: relative;
+  float: left;
+}
+.ios {
+    float: left;
+    margin-left: 1px;
+}
+.forms_t {
+    margin-top: 7px;
+}
+.android {
+    float: right;
+    margin-right: -6px;
+}
+.ios_tit {
+    position: absolute;
+    left: 58px;
+}
+.and_tit {
+    position: absolute;
+    top: 6px;
+    right: -106px;
+    margin-left: 5px;
+}
+.tit {
+  font-size: 18px;
+    color: #542a14;
+    top: -1px;
+    margin-left: -25px;
+}
+.niu{
+  display: inline-block;
+    margin-left: 0;
+    float: left;
+    line-height: 41px;
+}
+.niu-1{
+  margin-left: 8px;
+  font-size: 25px;
+  color: white;
+}
+.regular-radio{
+  display: none;
+
+}
+.regular-radio + label {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 5px solid #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 7px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  cursor:pointer;
+}
+.regular-radio:checked + label {
+      /* width: 6px; */
+    background-color: #960909;
+    color: #99a1a7;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+.regular-radio + label:active, .regular-radio:checked + label:active {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.middle_last {
+  text-align: center;
+}
+.footer_top {
+  width: 450px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 66px;
+}
+.footer_top p {
+  margin:0px auto;
+  font-size: 12px;
+  color: #7c675e;
+}
+.newPerson {
+  background: url("../img/tishi1.jpg") no-repeat top center;
+  position: fixed;
+  margin-top: 214.5px;
+  left: 50%;
+  margin-left: -240px;
+  width: 492px;
+  height: 328px;
+}
+.overlay {
+    background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    top: -38px;
+    width: 100%;
+    height: 2928px;
+    z-index: 1;
+    display:none;
+}
+.white {
+  width: 150px;
+  height: 34px;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 33px;
+  left: 170px;
+}

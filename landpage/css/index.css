@@ -1,0 +1,35 @@
+* {
+  margin:0px;
+  padding: 0px;
+}
+#app {
+  background: url("../img/bg.jpg") no-repeat center top;
+  width: 100%;
+  height: 3356px;
+  overflow: hidden;
+}
+.download {
+  text-align: center;
+  margin-top: 724px;
+}
+.video_player {
+  margin-top: 777px;
+  text-align: center;
+}
+.poral {
+  width: 568px;
+  margin: 0px auto;
+  margin-top: 983px;
+}
+.page {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 10px;
+  left: 24px;
+}
+.ios {
+  margin-right: 10px;
+}
+.android {
+  margin-left: 10px;
+}

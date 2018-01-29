@@ -1,0 +1,218 @@
+body,div,p,img,a,ul,li,h1,h2,h3 {
+  margin:0px;
+  padding:0px;
+}
+.wrap {
+  width: 100%;
+  height: 2578px;
+}
+.header {
+  background: url("../img/header1.jpg") no-repeat top center;
+  height: 617px;
+  width: 100%;
+}
+.headbottom {
+  overflow: hidden;
+  background: url("../img/headbottom.jpg") no-repeat top center;
+  height: 365px;
+  width: 100%;
+}
+.banner {
+  background: url("../img/banner1.jpg") no-repeat top center;
+  position: relative;
+  top: -66px;
+  height: 949px;
+  width: 100%;
+}
+.mid {
+  background: url("../img/mid.jpg") no-repeat top center;
+  position: relative;
+  top: -284px;
+  height: 782px;
+  width: 100%;
+}
+.footer {
+  background: url("../img/footer.jpg") no-repeat top center;
+  position: relative;
+  top:-286px;
+  height: 220px;
+  width: 100%;
+}
+.middle {
+  width: 1111px;
+  height: 190px;
+  margin:0px auto;
+  margin-top: 55px;
+}
+.middle_left {
+  float: left;
+}
+.middle_right {
+  width: 829px;
+  height: 190px;
+  float: right;
+}
+.middle_right .txt1 {
+  width: 357px;
+  height: 66px;
+  border:1px solid #542a14;
+  font-size: 18.49px;
+  text-align: center;
+}
+.middle_right .txt2 {
+  width: 215px;
+  height: 66px;
+  border:1px solid #542a14;
+  padding-left: 11px;
+  margin-left: 2px;
+  font-size: 18.49px;
+  text-align: center;
+  margin-left: 2px;
+}
+.middle_right .yanzheng {
+  width: 225px;
+  height: 66px;
+  line-height: 54px;
+  border:1px solid #7c6761;
+  background: #cf9f53;
+  color: #724724;
+  font-size: 21px;
+  // margin-left: 2px;
+}
+.left{
+  width: 395px;
+  margin-left: 22px;
+  float: left;
+}
+.left-3 {
+  margin-top: 38px;
+  width: 395px;
+  height: 55px;
+  position: relative;
+  color: #000;
+  float: left;
+}
+.left-3-1{
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 172px;
+  line-height: 37px;  
+  font-size: 18px;
+  color: #542a14;
+}
+.left-3-2{
+  width: 210px;
+  height: 55px;
+  position: relative;
+  float: left;
+}
+.ios {
+    float: left;
+    margin-left: 31px;
+}
+.forms_t {
+    margin-top: 7px;
+}
+.android {
+    float: right;
+    margin-right: 10px;
+}
+.ios_tit {
+    position: absolute;
+    left: 58px;
+}
+.and_tit {
+    position: absolute;
+    top: 6px;
+    right: -106px;
+    margin-left: 5px;
+}
+.tit {
+  font-size: 18px;
+    color: #542a14;
+    top: -1px;
+    margin-left: 5px;
+}
+.niu{
+  display: inline-block;
+    margin-left: 0;
+    float: left;
+    line-height: 41px;
+}
+.niu-1{
+  margin-left: 15px;
+  font-size: 25px;
+  color: white;
+}
+.regular-radio{
+  display: none;
+
+}
+.regular-radio + label {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+    border: 5px solid #fff;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 7px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  cursor:pointer;
+}
+.regular-radio:checked + label {
+      /* width: 6px; */
+    background-color: #960909;
+    color: #99a1a7;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+.regular-radio + label:active, .regular-radio:checked + label:active {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.middle_bottom_right {
+  float: right;
+  padding-top: 24px;
+}
+.footer_top {
+  width: 948px;
+  margin: 0px auto;
+  font-size: 12px;
+  padding-top: 92px;
+}
+.footer_top p {
+  margin: 0px auto;
+  text-align: center;
+  color: #96857b;
+  padding-top: 18px;
+}
+.newPerson {
+  background: url("../img/tishi1.jpg") no-repeat top center;
+  position: fixed;
+  margin-top: 214.5px;
+  left: 50%;
+  margin-left: -240px;
+  width: 492px;
+  height: 328px;
+}
+.overlay {
+    background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    top: -38px;
+    width: 100%;
+    height: 2928px;
+    z-index: 1;
+    display:none;
+}
+.white {
+  width: 150px;
+  height: 34px;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 33px;
+  left: 170px;
+}
+
+

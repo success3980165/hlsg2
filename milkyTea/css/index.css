@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+[v-cloak]{
+  display: none;
+}
+input {-webkit-appearance:none; }
+.container {
+  background: url("../img/phoneBg.jpg") no-repeat top center;
+  height: 1895px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.yuyue {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 910px;
+}
+.txt {
+  width: 209px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-align: center;
+}
+.yanzheng {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-align: center;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #ff882a;
+  border:none;
+  outline: none;
+  border-radius：0px;
+  -webkit-border-radius:0px;
+}
+.receive {
+  margin-top: 25px;
+}
+.now {
+  margin-top: 338px;
+  display: block;
+}
+.cover {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #000;
+}
+.success {
+  width: 308px;
+  height: 120px;
+  background: url(../img/background.png) no-repeat top center;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -154px;
+  margin-top: -60px;
+  z-index: 999;
+}
+.success p {
+  font-size: 22px;
+}
+.cross {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}

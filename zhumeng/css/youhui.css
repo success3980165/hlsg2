@@ -1,0 +1,88 @@
+div.main {
+    width: 1120px;
+    background-color: #fff;
+    margin: 0 auto;
+    clear: both;
+}
+div.youhui .youhui_delay {
+    background: url(../img/youhui_1.jpg) no-repeat 80px center;
+    height: 370px;
+    border-bottom: 1px solid #ddd;
+}
+div.youhui .youhui_delay>div {
+    color: #666;
+    margin-left: 560px;
+    padding-top: 125px;
+    font-size: 14px;
+}
+div.youhui strong {
+    font-size: 36px;
+    color: #333;
+    font-weight: 400;
+    line-height: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+div.youhui p {
+    line-height: 24px;
+}
+div.youhui span {
+    color: #c00;
+    font-size: 18px;
+}
+div.youhui a {
+    color: #c00;
+}
+div.youhui_tuan {
+    background: url(../img/youhui_2.jpg) no-repeat 400px center;
+    height: 370px;
+    border-bottom: 1px solid #ddd;
+}
+div.youhui_tuan>div {
+    color: #666;
+    padding-top: 145px;
+    font-size: 14px;
+    margin-left: 80px;
+}
+div.youhui_xiaoyou {
+    background: url(../img/youhui_3.png) no-repeat 80px center;
+    height: 370px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+div.youhui_xiaoyou>div {
+    color: #666;
+    margin-left: 588px;
+    padding-top: 90px;
+    font-size: 14px;
+}
+div.youhui_xiaoyou a.youhui_lingqu {
+    width: 240px;
+    height: 28px;
+    display: block;
+    text-indent: -999999px;
+    position: absolute;
+    overflow: hidden;
+    left: 112px;
+    top: 210px;
+    // border: 1px solid blue;
+}
+div.youhui_zhongshen {
+    background: url(../img/youhui_4.jpg) no-repeat 588px center;
+    height: 370px;
+    border-bottom: 1px solid #ddd;
+}
+div.youhui_zhongshen>div {
+    color: #666;
+    padding-top: 75px;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+

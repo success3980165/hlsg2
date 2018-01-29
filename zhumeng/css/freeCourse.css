@@ -1,0 +1,76 @@
+div.title {
+    border-bottom: 1px solid #eee;
+    height: 260px;
+    position: relative;
+}
+div.main {
+    margin: 0 auto;
+    width: 1120px;
+    background-color: #fff;
+    clear: both;
+}
+div.title img {
+    position: absolute;
+    left: 300px;
+    top: 49px;
+    width: 161px;
+    height: 161px;
+}
+div.title strong {
+    font-size: 30px;
+    color: #444;
+    font-weight: 400;
+    line-height: 48px;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+div.policies {
+    padding: 30px;
+    width: 940px;
+}
+div.policies p {
+    line-height: 24px;
+}
+.hanggao20 {
+    margin-bottom: 20px;
+}
+.hanggao50 {
+    margin-bottom: 50px;
+}
+div.policies h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    line-height: 40px;
+}
+ul.pts {
+    padding-left: 30px;
+    clear: both;
+    overflow: hidden;
+}
+ul.pts li {
+    float: left;
+    width: 250px;
+    margin-left: 62px;
+}
+ul.pts .line {
+    background: url(../img/line.png) repeat-y right;
+}
+ul.pts .tui {
+    margin-left: 0;
+    width: 283px;
+}
+ul.pts li h3 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+ul.pts li h3 a {
+    color: #c00;
+}
+ul.pts li p {
+    line-height: 24px;
+}

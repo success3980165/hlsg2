@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>胡莱三国2-全新资料片“卧龙重生</title>
+  <meta name="keywords" content="三国、王洛勇、虎啸龙吟、胡莱三国、手机游戏、刘涛、策略游戏、三国演义、三国志">
+  <meta name="description" content="金花院长 邀请你重写三国，点击立即加入，一起改写历史！">
+  <meta name="viewport" content="width=640,target-densitydpi=320, minimum-scale=0.5, maximum-scale=2,user-scalable=0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/hulai-activity-0.0.1.js?v=2017.10.24"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <script type="text/javascript" src="js/swiper.min.js"></script>
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      /*height: 290px;*/
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /*background: #fff;*/
+      /*width: 497px !important;*/
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-ite
+    }
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      border-radius: 100%;
+      background: #2e323c;
+      opacity: 1;
+      margin-left: 20px;
+      border: 1px solid white;
+    }
+    .swiper-pagination-bullet-active {
+      background: white;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="download">
+      <a href="https://tracking.hoolai.com/tracking/9738/" class="ios"><img src="img/ios.png" alt=""></a>
+      <a href="http://uri6.com/tkio/IrEFNfa" class="android"><img src="img/android.png" alt=""></a>
+    </div>
+    <div class="video_player" onclick="autoPlay()">
+      <video id="media" width="580" height="360" src="http://cdn.hzsg.hulai.com/hlsgzlp.mp4" controls="controls" poster="img/video_bg.jpg" >
+      无法支持html5浏览器
+      </video>
+    </div>
+    <div class="poral">
+      <div class="swiper-container shouye_swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/5.jpg" alt="">
+            </div>
+          </div>
+      </div>
+      <div class="swiper-pagination page"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay: 2500,
+        centeredSlides: true,
+        paginationClickable: true,
+        observer: true,
+        loop: true,
+    });
+  </script>
+  <script type="text/javascript">
+    function autoPlay(){
+      var media = document.getElementById("media");
+            media.play();
+            console.log("视频自动播放");
+    }
+    function stopPlay(){
+      var media = document.getElementById("media");
+            media.pause();
+            console.log("视频暂停播放");
+    }
+    </script>
+    <script type="text/javascript">
+      var hlsg2ActivityAPI = new hoolaiActivityAPI(16, true);
+      var shareData = {
+        title: '胡莱三国2-全新资料片“卧龙重生',
+        desc: '金花院长 邀请你重写三国，点击立即加入，一起改写历史！',
+        link: location.href.split('#')[0],
+        imgUrl: 'http://hlsg2.hulai.com/favicon.ico'
+      };
+
+      wx.error(function(res) {
+        console.log("error");
+        console.log(res);
+      });
+      wx.ready(function() {
+        console.log("ready");
+        wx.onMenuShareTimeline(shareData);
+        wx.onMenuShareAppMessage(shareData);
+        wx.onMenuShareQQ(shareData);
+        wx.onMenuShareWeibo(shareData);
+      });
+      hlsg2ActivityAPI.getWXShareConfig('hlsg2',function(result) {
+        wx.config({
+          debug: false,
+          appId: result.appid,
+          timestamp: result.timestamp,
+          nonceStr: result.nonceStr,
+          signature: result.signature,
+          jsApiList: ["onMenuShareTimeline", "onMenuShareAppMessage", "onMenuShareQQ", "onMenuShareWeibo"]
+        });
+      })
+    </script>
+</body>
+</html>

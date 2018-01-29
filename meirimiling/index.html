@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=640,target-densitydpi=320, minimum-scale=0.5, maximum-scale=1,user-scalable=no">
+  <title>胡莱三国2-每日密令</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css"></link>
+  <script type="text/javascript" src="http://s0.web.hulai.com/static/jquery/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="http://page.hulai.com/static/open/js/vue-2.1.8.min.js"></script>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <p class="miling_text">每日密令</p>
+    <!-- 领取、密令码 -->
+    <div class="lingqu">
+      <img v-show="lingquShow" src="img/lingqu.png" style="width: 60%;margin-top: 15px;" @click="getDuihuanma()">
+      <div v-show="duihuanmaShow">
+        <img class="icon_animate" src="img/libao_icon.png">
+        <input v-model="duihuanma" class="duihuanma" type="text" readonly="readonly"></input>
+      </div>
+    </div>
+    <!-- 使用说明 -->
+    <div class="shuoming">
+      <p>使用说明：</p>
+      <p>1，兑换码每日中午12:00更新，领取后即可使用，次日中午12:00之前失效；</p>
+      <p>2，使用方法：领取兑换码→进入游戏→右上角→活动→兑换礼包。</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

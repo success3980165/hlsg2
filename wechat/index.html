@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>《胡莱三国2》test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script type="text/javascript" src="//activity.api.hulai.com/static/open/js/hulai-activity-0.0.1.js?v=1"></script>
+  </head>
+  <body>
+    <div>
+      <p>测试朋友圈分享</p>
+      <img src="http://hlsg2.hulai.com/m/img/IOCN400.png" alt="">
+    </div>
+    <script type="text/javascript">
+      var sg2ActivityAPI = new hoolaiActivityAPI(4, true);
+      var shareData = {
+        title: '刘涛代言沙盘策略手游《胡莱三国2》',
+        desc: '公测预约有礼活动正式开启，代言人刘涛精心为你们准备了很多专属礼品，老玩家还会有特殊福利，快来预约，向女神刘涛发起挑战吧！',
+        link: location.href.split('#')[0],
+        imgUrl: 'http://hlsg2.hulai.com/m/img/IOCN400.png'
+      };
+      wx.error(function (res) {
+        console.log("error");
+        console.log(res);
+      });
+      wx.ready(function () {
+        console.log("ready");
+        wx.onMenuShareTimeline(shareData);
+        wx.onMenuShareAppMessage(shareData);
+        wx.onMenuShareQQ(shareData);
+        wx.onMenuShareWeibo(shareData);
+      });
+      sg2ActivityAPI.getWXShareConfig(function (result) {
+        wx.config({
+          debug: true,
+          appId: result.appid,
+          timestamp: result.timestamp,
+          nonceStr: result.nonceStr,
+          signature: result.signature,
+          jsApiList: ["onMenuShareTimeline", "onMenuShareAppMessage", "onMenuShareQQ", "onMenuShareWeibo"]
+        });
+      })
+    </script>
+  </body>
+</html>
